@@ -118,6 +118,7 @@ def get_news(id):
             news_object = News(id,name,descriprion,url,category,)
     return news_object
     
+    
 def search_news(_name):
     search_news_url = 'https://api.themoviedb.org/3/search/movie?api_key={}&query={}'.format(api_key,movie_name)
     with urllib.request.urlopen(search_movie_url) as url:
