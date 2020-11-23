@@ -1,0 +1,28 @@
+<!-- Displaying source's articles macro -->
+{% macro displayArticles(articles_list) %}
+    {% for article in articles_list %}
+        <div class="card">
+
+    
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
+                <img src="{{ article.image_url }}" alt="{{ article.title }} poster" class="img-responsive">
+                <h4>{{ article.title }}</h3>
+                <p>{{ article.description }}</p>
+                    <p>{{ article.publishedAt }}</p>
+                <a href="{{ article.url }}" class="btn btn-success" target="_blank">View Full Article</a>
+            </div>
+        </div>
+    {% endfor %}
+{% endmacro %}
+<!-- Displaying sources macro -->
+{% macro displaySources(sources) %}
+    {% for source in sources %}
+    <div class="col-xs-12 col-sm-4 col-md-4 col-sourcelg-4 review-card">
+        <h2>{{ source.name}} </h2>
+        <p> {{ source.description | truncate(30) }}</p>
+        <p> {{ source.category}} </p> 
+        <a href="{{ source.url}}" target="_blank">  {{ source.url}}</a><br>
+        <a href="/articles/{{ source.id}}" class="btn btn-primary">View Articles</a>
+    </div>
+    {% endfor %}
+{% endmacro %}
