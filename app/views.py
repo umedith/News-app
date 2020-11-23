@@ -9,7 +9,7 @@ def index():
     '''
     View root page function that returns the index page and its data
     '''
-    # Getting artcle sources
+    # Getting article sources
     all_sources = get_sources()
     title = 'Home - Welcome to E-News Website'
 
