@@ -32,9 +32,9 @@ This application is free from bugs.if found please don't hesitate to contact me.
 
 ## contact information
 
-email: umedith03@gmail.com
-twitter: edith.twitter.com
-contact: +250 781 234 567
+- email: umedith03@gmail.com
+- twitter: edith.twitter.com
+- contact: +250 781 234 567
 
 ## License
 
