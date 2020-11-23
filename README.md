@@ -18,9 +18,9 @@ Testing was done using python build-in moodules called unittest
 
 ## Behaviour Driven Development
 
-The user is able to navigate through news sources
-The user is able to click on a button that leads to different articles of the news source
-The user is able to go to the website to read more about the article by clicking on a button
+- The user is able to navigate through news sources
+- The user is able to click on a button that leads to different articles of the news source
+- The user is able to go to the website to read more about the article by clicking on a button
 
 ## Technologies used
 
